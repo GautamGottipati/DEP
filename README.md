@@ -10,4 +10,4 @@
 * [Word Count](http://www.codewars.com/kata/word-count)
 * [Get the middle Character](http://www.codewars.com/kata/get-the-middle-character)
 * [Partition on](http://www.codewars.com/kata/partition-on)
-* [Word Count](http://www.codewars.com/kata/word-count)
+* [Calculating with functions](http://www.codewars.com/kata/calculating-with-functions)
