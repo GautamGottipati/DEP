@@ -21,14 +21,14 @@
 // return the nested property value if it exists,
 // otherwise return undefined
 Object.prototype.hash = function(string) {
-    var array = string.split( "." );
-    for (var i = 0; i < array.length; i++ ) {
-    if(obj[array[i]]== undefined){
-      return undefined;
-      }else{
-      obj = obj[array[i]];
-      }
+  var array = string.split( "." );
+  myObj=obj;
+  for (var i = 0; i < array.length; i++ ) {
+  if(myObj[array[i]]==undefined){
+    return undefined;
+    }else{
+    myObj = myObj[array[i]];
     }
-    return obj;
-  
   }
+  return myObj;
+}
