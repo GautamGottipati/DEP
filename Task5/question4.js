@@ -12,8 +12,9 @@
 
 
 function isSantaClausable(obj) {
-  // TODO
-  let expected = [ 'sayHoHoHo', 'distributeGifts', 'goDownTheChimney' ];
-  let objProperties = Object.getOwnPropertyNames(obj);
-  return JSON.stringify(a)==JSON.stringify(expected);
+ return (
+   (typeof obj.sayHoHoHo==='function')
+   &&(typeof obj.distributeGifts=== 'function')
+   &&(typeof obj.goDownTheChimney==='function')
+   );
 }
