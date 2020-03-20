@@ -23,8 +23,8 @@ function prefill(n, v) {
     if(m===0 ){
       return [];
     }
-    if(!m || n%1!=0||m <0 ){
+    if(isNaN(m) || n%1!=0||m <0 ){
       throw new TypeError(n+" is invalid");
     }
-    return (new Array(parseInt(n))).fill(v);
+    return (new Array(m)).fill(v);
 }
