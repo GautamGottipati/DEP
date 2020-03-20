@@ -6,11 +6,18 @@
 // Output
 
 function rentalCarCost(d) {
-    // Your solution here
-    if(d>=7)
-      return d*40-50;
-    if(d>=3 && d<7)
-      return d*40-20;
-    else
-      return d*40
+var discount;
+  switch(true)
+  {
+    case (d<3):
+    discount=0;
+    break;
+    case (d>=3 && d<7):
+    discount=20;
+    break;
+    case (d>=7):
+    discount=50;
+    break;
   }
+  return (d*40)-discount;
+}
