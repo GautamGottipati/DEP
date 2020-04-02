@@ -1,0 +1,12 @@
+<div *ngFor="let user of usersList">
+  <div *ngIf="user.isDeleted">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">{{ user.firstName }} {{ user.lastName }}</h5>
+        <button class="btn btn-success">
+          Activate
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
