@@ -1,0 +1,25 @@
+{
+  "name": "ytbstore-dep",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GautamGottipati/ytbstore-DEP.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GautamGottipati/ytbstore-DEP/issues"
+  },
+  "homepage": "https://github.com/GautamGottipati/ytbstore-DEP#readme",
+  "devDependencies": {
+    "karma": "^4.4.1",
+    "karma-chrome-launcher": "^3.1.0",
+    "karma-jasmine": "^3.1.1",
+    "karma-phantomjs2-launcher": "^0.5.0"
+  }
+}
