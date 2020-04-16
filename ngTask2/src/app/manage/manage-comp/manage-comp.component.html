@@ -1,0 +1,74 @@
+<div class="container">
+    <div class="row" style="margin-bottom: 10px;">
+      <button class="btn btn-success" (click)="createUser()" style="float: right;">Create</button>
+    </div>
+    <div class="row">
+    <div class="col-lg-5">
+      <div *ngFor="let user of usersList">
+        <div *ngIf="user.isDeleted">
+          <div
+            class="card"
+            style="border:2px solid red ;"
+          >
+            <div class="card-body">
+              <h5 class="card-title">
+                {{ user | strconcate }}
+              </h5>
+
+              <button
+                (click)="editDetails(user.id)"
+                class="btn btn-warning"
+                style="float: right;"
+              >
+              
+                Edit
+              </button>
+
+              <button
+                (click)="showDetails(user.id)"
+                class="btn btn-primary"
+              >
+
+                Details
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div *ngIf="!user.isDeleted">
+          <div
+            class="card"
+            style="border:2px solid green ;"
+          >
+            <div class="card-body">
+              <h5 class="card-title">
+                {{ user | strconcate }}
+              </h5>
+
+              <button
+                (click)="editDetails(user.id)"
+                class="btn btn-warning"
+                style="float: right;"
+              >
+              
+                Edit
+              </button>
+
+              <button
+                (click)="showDetails(user.id)"
+                class="btn btn-primary"
+              >
+
+                Details
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-7">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+  
+</div>

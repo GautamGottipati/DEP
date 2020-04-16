@@ -1,0 +1,12 @@
+.card{
+	padding: 5px;
+	width: 80%;
+	height: auto;
+	border-radius: 5px;
+	border:2px solid green ;
+	margin: 5px 150px;
+}
+
+button{
+	margin-left: 90%;
+}

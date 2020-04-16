@@ -1,0 +1,31 @@
+<div class="container">
+    <div class="formdata">
+      <div class="row">
+        <label>First Name</label> <br> <input type="text" [(ngModel)]="fname" />
+      </div>
+  
+      <div class="row">
+        <label>Last Name</label><br><input type="text" [(ngModel)]="lname" />
+      </div>
+  
+      <div class="row">
+        <label>Login Id</label><br>
+        <input type="text" [(ngModel)]="login" />
+      </div>
+  
+      <div class="row">
+        <label>Password</label><br><input type="text" [(ngModel)]="password" />
+      </div>
+  
+      <div class="row">
+        <label>Age</label><br><input type="number" [(ngModel)]="age" />
+      </div>
+      <br />
+      <div>
+        <button class="btn btn-primary" (click)="AddUser()">
+          Submit
+        </button>
+      </div>
+    </div>
+  </div>
+  

@@ -1,0 +1,12 @@
+<div *ngFor="let user of usersList | activePipe ">
+  <div *ngIf="!user.isDeleted">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">{{ user.firstName }} {{ user.lastName }}</h5>
+        <button (click)="makePassive(user.id)" class="btn btn-danger">
+          Deactivate
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
