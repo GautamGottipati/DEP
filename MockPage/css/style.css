@@ -1,0 +1,210 @@
+*{
+    box-sizing: border-box;
+}
+
+/* Header css 
+https://www.w3schools.com/howto/howto_google_fonts.asp
+*/
+
+@font-face {
+  font-family: OpenSans;
+  src: url("/fonts/OpenSans-Regular-webfont.woff") format("woff");
+}
+
+body{
+    font-family: 'Asul';
+}
+
+header{
+    height: 184px;
+    width: 100%;
+    background-color: rgb(63, 75, 101);
+    text-align: center;
+    overflow: auto;
+}
+header div{
+    margin: auto;
+    margin-top: 27px;
+    height: auto;
+    width: 25%;
+    background-color: white;
+    border:#a2531f;
+    border-style: solid;
+    border-radius: 5px;
+    display: block;
+    
+}
+
+header div p{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 5px;
+    font-weight: bold;
+    
+}
+
+header div p:first-child{
+    font-size: 38px;
+    font-weight: bold ;
+    margin-bottom: 0px;
+    margin-top: 27px;
+    
+}
+
+/* End of Header css */
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+.container{
+    width: 100%;
+    /*border : 2px solid blue;*/
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+hr{
+    display: block;
+    color: grey;
+    height: 5px;
+    background-color: grey;
+    border-radius: 5px;
+}
+
+.row{
+    height: auto;
+    width: 100%;
+    /*border: 2px solid greenyellow;*/
+    margin-bottom: 10px;
+    padding: 10px;
+    overflow: auto;
+}
+
+
+.col3{
+    /*border: 2px solid green;*/
+    float: left;
+    width: 33.33%;
+    height: auto;
+    margin: auto;
+}
+
+.col4{
+    /*border: 2px solid black;*/
+    float: left;
+    width: 25%;
+    height: auto;
+    margin: auto;
+    padding-top: 30px;
+}
+
+
+.col8{
+    /*border: 2px solid black;*/
+    float: left;
+    width: 75%;
+    height: auto;
+    margin: auto;
+    padding-left: 15px;
+
+}
+.col9{
+    /*border: 2px solid black;*/
+    float: left;
+    width: 66.67%;
+    height: auto;
+    margin: auto;
+
+}
+
+.scat{
+    font-size: 20px;
+    font-weight: bold;
+    padding: inherit;
+}
+
+.title{
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    top: 100%;
+
+}
+
+.subscribe{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    padding: inherit;
+}
+
+input,select{
+    font-weight: bold;
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+}
+
+input[type=email]{
+    /* float: right; */
+    width: 75%;
+}
+
+input[type=submit]{
+    font-weight: bold;
+    float: right;
+    width: 25%;
+}
+
+#heading p{
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+#heading span{
+    font-size: 20px;
+}
+
+#matter{
+    font-size: 20px;
+    line-height: 30px;
+}
+
+button{
+    background-color: red;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 15px 32px;
+    margin: 4px 2px;
+    font-size: 16px; 
+}
+/*End of middle part*/
+
+footer{
+    height: 92px;
+    width: 100%;
+    background-color: rgb(63, 75, 101);
+    text-align: center;
+    font-size: 1em;
+    color: white;
+    position: relative;
+
+
+}
+
+footer span{
+    position: absolute;
+    left: 44%;
+    top: 41%;
+}

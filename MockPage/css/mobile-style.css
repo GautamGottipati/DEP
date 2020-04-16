@@ -1,0 +1,80 @@
+header{
+    height: 225px;
+    width: 100%;
+    background-color: rgb(63, 75, 101);
+    text-align: center;
+    overflow: auto;
+}
+
+header div{
+    margin: auto;
+    margin-top: 52px;
+    height: auto;
+    width: 34%;
+    background-color: white;
+    border:#a2531f;
+    border-style: solid;
+    border-radius: 5px;
+    display: block;
+    
+}
+
+.col3{
+    width: 100%;
+    text-align: center;
+}
+
+.col9{
+    width: 100%;
+    
+}
+.col4{
+    width: 100%;
+    text-align: center;
+    
+}
+.col8{
+    width: 100%;
+    
+}
+
+img{
+    width: 50%;
+    height :auto;
+    margin:auto;
+}
+
+.scat{
+    font-size: 20px;
+    font-weight: bold;
+    padding: inherit;
+    
+}
+
+#subscribe{
+    width: 50%;
+}
+
+.flex{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex > #selectCategory{
+    order: 1;
+}
+
+.flex > #title{
+    order: 3;
+}
+
+.flex > #subscribe{
+    order: 2;
+}
+
+footer span{
+    position: absolute;
+    left: 44%;
+    top: 41%;
+}
+
