@@ -1,0 +1,168 @@
+body{
+	text-align: center;
+}
+
+.myapp{
+	display: flex;
+	/* border: 1px solid red; */
+	flex-direction: column;
+	height: 100vh;
+}
+
+.part1{
+    width: auto;
+    height: 30%;
+    /* border : 2px solid blue; */
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
+    background-color: #e46868;
+    color: #e46868;
+
+}
+
+.part1>input{
+	    position: absolute;
+	    top: 0;
+	    bottom: 0;
+	    left: 0;
+	    right: 0;
+	    width: 30%;
+	    height: 10%;
+	    margin: auto;
+	    /* border: 1px solid grey; */
+	    padding: 10px;
+	    font-size: 15px;
+}
+
+.part1>button{
+	    position: absolute;
+	    top: 0;
+	    bottom: 0;
+	    left: 40%;
+	    right: 10px;
+	    width: 5%;
+	    height: 21%;
+	    margin: auto;
+	    /* border: 1px solid grey; */
+	    padding: 10px;
+	    font-size: 20px;
+	    cursor: pointer;
+	    border-radius: 5px;
+
+}
+
+
+/* .part2{ */
+    /* width: auto; */
+    /*height: 70%;*/
+    /* border : 2px solid blue; */
+    /* margin-bottom: 10px; */
+    /* padding: 10px; */
+/* } */
+
+.part2>p{
+	font-size: 25px;
+
+}
+
+.container{
+    width: 100%;
+    /* border : 2px solid blue; */
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.row{
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex: 1;
+    /* text-align: center; */
+    height: auto;
+    width: auto;
+    /* border: 2px solid greenyellow; */
+    margin-bottom: 10px;
+    padding: 10px;
+    overflow: auto;
+}
+
+
+.col3{
+    /* border: 2px solid green; */
+    float: left;
+    width: 20%;
+    height: auto;
+    margin: 5px;
+    background-color: #e46868;
+    border-radius: 5px;
+}
+
+.col3Img{
+	/* border: 2px solid green; */
+    float: left;
+    width: 35%;
+    height: auto;
+    margin: auto;
+
+}
+
+.col3Text{
+    /* border: 2px solid green; */
+    right: 0px;
+    float: left;
+    width: 60%;
+    height: auto;
+    margin: auto;
+
+}
+
+img{
+	width: 100%;
+    height: auto;
+    border-radius : 5px;
+}
+
+h4{
+    margin: 0px;
+    text-align: left;
+}
+
+p{
+    margin: 0px;
+    text-align: left;
+}
+
+.bottom{
+    visibility: hidden;
+}
+
+.bottom>button{
+    width: 5%;
+    font-size: large;
+    font-weight: bold;
+    /* font-family:'Times New Roman'; */
+    float: left;
+    margin: 10px;
+    height: 50px;
+    background-color: burlywood;
+    border-radius: 100px;
+    visibility: hidden;
+ 
+}
+
+.bottom>button:hover{
+    background-color: wheat;
+    color: tomato;
+    cursor: pointer;
+}
+
+#btn_next{
+    float: right;
+}
+
+hr{
+    height: 10px;
+    background-color: burlywood;
+    border-radius: 100px;
+}
