@@ -1,0 +1,13 @@
+<div class="card">
+	<h3>Component One</h3>
+	<p>Some quick example component created using CLI.</p>
+	<hr>
+	<button class="btn btn-primary" [disabled]="!check" (click)="onClicking(giftName)">{{serverName}}</button>
+	<p>{{clicked}}</p><p>{{clickCount}}</p>
+	<p *ngIf="add; else dontAdd">Hello world</p>
+	<ng-template #dontAdd>
+		<p>Will come</p>		
+	</ng-template>
+	<input type="text" class="form-control" #giftName (onChange)="addToP(event)"/>
+	<p>{{userName}}</p>
+</div>
