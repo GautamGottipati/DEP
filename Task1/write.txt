@@ -1,0 +1,9 @@
+/home/gautam/Documents/codes/Nodeprac/utils/file4.xml  3ced87db506a3d9c3857f35494cd697e3a1dbf64  91b2833d090d19fb91d8998060a389f7 
+/home/gautam/Documents/codes/Nodeprac/utils/msg-utl.js  f8cb739a89b7ab84eee56860c16ef841f51aa365  887180d6237c8871699f0f9e0bd74789 
+/home/gautam/Documents/codes/Nodeprac/utils/newfolder/file1.txt  ac7a3bc7b8a588c2e27baa380af38f400abcb386  20a3014f40d74bf53d8649f02cc68a11 
+/home/gautam/Documents/codes/Nodeprac/utils/newfolder/file2.js  1e689f2619033e8bd9a387c4c931961894ad095d  db696656919b48e4a33ea2ae7fc2787d 
+/home/gautam/Documents/codes/Nodeprac/utils/newfolder/file3.csv  8dfc077906c7132cae588438e1f1491a942027a1  ee93789fba8b75b3db48ab9d5f9f0875 
+/home/gautam/Documents/codes/Nodeprac/utils/newfolder/new2folder/a  da81a6812dc15a306c3ed5144b6adf57f352b8cf  ad6b3146dba1f5d2e7370f3d0b2c97ab 
+/home/gautam/Documents/codes/Nodeprac/utils/newfolder/new2folder/b  c650e1af0c229fd5ba0884ab038d3aebdc389ad6  5c18ec304ffaf2a44be8ff5638f504bb 
+/home/gautam/Documents/codes/Nodeprac/utils/newfolder/new2folder/c  c4f3381c232099127171f348cd958ae37f5417a4  70c76c3ebd99df85719f3e404e151b96 
+/home/gautam/Documents/codes/Nodeprac/utils/newfolder/new2folder/d  60637b47cca34199634f2717a12c11fd92e0445a  9582d6b99d9485fa7eb6826924dc7680 
