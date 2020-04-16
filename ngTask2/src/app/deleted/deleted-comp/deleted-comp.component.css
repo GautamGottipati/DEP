@@ -1,0 +1,11 @@
+.card{
+	padding: 5px;
+	width: 80%;
+	border:2px solid red ;
+	border-radius: 5px;
+	margin: 5px 150px;
+}
+
+button{
+	margin-left: 90%;
+}

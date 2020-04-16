@@ -1,0 +1,15 @@
+/* .formdata {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: 50%; */
+    /* flex-direction: column; */
+/* } */
+input{
+    width: 300px;
+    padding: 10px;
+    border-radius: 5px;
+    
+}
